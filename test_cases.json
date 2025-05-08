@@ -1,0 +1,107 @@
+[
+    {
+      "topic": "Thermodynamics",
+      "id": "1",
+      "question": "Heliox, a mixture of helium and oxygen, is sometimes given to hospital patients who have trouble breathing, because the low mass of helium makes it easier to breathe than air. Suppose helium at 25°C is mixed with oxygen at 35°C to make a mixture that is 70% helium by mole. What is the final temperature? Ignore any heat flow to or from the surroundings, and assume the final volume is the sum of the initial volumes.",
+      "answer": "29.2°C",
+      "parameters": {
+        "numeric_only": "True",
+        "multi_part": "False",
+        "image_url": "None"
+      },
+      "tags": {
+        "category": "Question Type",
+        "subcategory": "Mathematical",
+        "complexity": "Intermediate",
+        "application": "Engineering",
+        "format": "Calculation"
+      }
+    },
+    {
+      "topic": "Electricity",
+      "id": "4",
+      "question": "If the electric field at a point on the line between two charges is zero, what do you know about the charges?",
+      "answer": "The charges are of the same sign",
+      "parameters": {
+        "numeric_only": "False",
+        "multi_part": "False",
+        "image_url": "None"
+      },
+      "tags": {
+        "category": "Question Type",
+        "subcategory": "Conceptual",
+        "complexity": "Basic",
+        "application": "General Physics",
+        "format": "Comparison"
+      }
+    },
+    {
+      "topic": "Magnetism",
+      "id": "5",
+      "question": "In the emf of the battery of Figure 14.12(b) is reduced by a factor of 2, by how much does the steady-state energy stored in the magnetic field of the inductor change?",
+      "answer": "1/4",
+      "parameters": {
+        "numeric_only": "True",
+        "multi_part": "False",
+        "image_url": "test_case_pics/M5.png"
+      },
+      "tags": {
+        "category": "Question Type",
+        "subcategory": "Conceptual",
+        "complexity": "Intermediate",
+        "representation": "Explanation"
+      }
+    },
+    {
+      "topic": "Circuits",
+      "id": "1",
+      "question": "10.45 A child’s electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of 0.0200 Ω in series with a 1.53-V carbon-zinc dry cell having a 0.100 Ω internal resistance. The load resistance is 10.0 Ω. How much power is supplied to the load?",
+      "answer": "3.81 W",
+      "parameters": {
+        "numeric_only": "True",
+        "multi_part": "False",
+        "image_url": "None"
+      },
+      "tags": {
+        "category": "Question Type",
+        "subcategory": "Mathematical",
+        "complexity": "Advanced",
+        "representation": "Calculation"
+      }
+    },
+    {
+      "topic": "Magnetism",
+      "id": "17",
+      "question": "A solenoid with 4 × 10^7 turns/m has an iron core placed in it whose magnetic susceptibility is 4.0 × 10^3. (a) If a current of 2.0 A flows through the solenoid, what is the magnetic field in the iron core? (b) What is the effective surface current formed by the aligned atomic current loops in the iron core? (c) What is the self-inductance of the filled solenoid?",
+      "answer": "a. 100 T; b. 2 A; c. 0.50 H",
+      "parameters": {
+        "numeric_only": "True",
+        "multi_part": "True",
+        "image_url": "None"
+      },
+      "tags": {
+        "category": "Data Format",
+        "subcategory": "Units",
+        "complexity": "Basic",
+        "representation": "Unit"
+      }
+    },
+    {
+      "topic": "Circuits",
+      "id": "5",
+      "question": "An electron passes through a magnetic field without being deflected. What do you conclude about the magnetic field?",
+      "answer": "The magnetic field must point parallel or anti-parallel to the velocity.",
+      "parameters": {
+        "numeric_only": "False",
+        "multi_part": "False",
+        "image_url": "None"
+      },
+      "tags": {
+        "category": "Question Type",
+        "subcategory": "Conceptual",
+        "complexity": "Intermediate",
+        "representation": "Comparison"
+      }
+    }
+  ]
+  
