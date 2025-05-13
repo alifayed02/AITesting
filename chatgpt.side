@@ -1,0 +1,229 @@
+{
+  "id": "c51a166b-7d7d-4be9-8479-e273b48bff33",
+  "version": "2.0",
+  "name": "187",
+  "url": "https://chatgpt.com",
+  "tests": [{
+    "id": "92caef17-da90-49d6-bd9e-64f899237f03",
+    "name": "chatgpt",
+    "commands": [{
+      "id": "5fb65bd8-cd47-4509-8229-24a8f50e80f1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "500bcdce-3a22-4ecf-a3c2-843e97d1044e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3047a539-1be3-444e-a06a-7fb144e3d2d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .inline-block > .radix-state-open\\3A bg-black\\/10 > .flex",
+      "targets": [
+        ["css=div:nth-child(1) > .inline-block > .radix-state-open\\3A bg-black\\/10 > .flex", "css:finder"],
+        ["xpath=//div[@id='thread-bottom']/div/div/div[2]/form/div/div/div[2]/div/div/div[2]/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a41ddb-281a-4d57-ab86-603d4bd7bb6c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(1) > .inline-block > .radix-state-open\\3A bg-black\\/10 > .flex",
+      "targets": [
+        ["css=div:nth-child(1) > .inline-block > .radix-state-open\\3A bg-black\\/10 > .flex", "css:finder"],
+        ["xpath=//div[@id='thread-bottom']/div/div/div[2]/form/div/div/div[2]/div/div/div[2]/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e76669-3586-44bd-be9d-f0b0d336af61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afacaa71-7cee-4519-8811-6d336ee778fe",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=prompt-textarea",
+      "targets": [
+        ["id=prompt-textarea", "id"],
+        ["css=#prompt-textarea", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='thread-bottom']/div/div/div[2]/form/div/div/div/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Can carbon dioxide be liquefied at room temperature (20 °C)? If so, how? If not, why not?</p>"
+    }, {
+      "id": "f154633f-98eb-4e11-a32e-6ac624bae9d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#composer-submit-button path",
+      "targets": [
+        ["css=#composer-submit-button path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "69e9e13a-b2f5-49cf-9083-3e5b41dbf142",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9e5403-9d90-45aa-bc03-480ef072e3ef",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=prompt-textarea",
+      "targets": [
+        ["id=prompt-textarea", "id"],
+        ["css=#prompt-textarea", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='thread-bottom']/div/div/div[2]/form/div/div/div/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Is it possible for a system to have an entropy change if it neither absorbs nor emits heat during a reversible transition? What happens if the process is irreversible?</p>"
+    }, {
+      "id": "7a879210-b5c0-4ed5-aa80-04ff8106d3ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=#composer-submit-button > .icon-md",
+      "targets": [
+        ["css=#composer-submit-button > .icon-md", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a12c6994-b4c1-4f59-ae3a-7d1d0e066652",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "600ff97e-80a9-483c-91b5-c6dad8ce2f01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.placeholder",
+      "targets": [
+        ["css=.placeholder", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c47870-ebec-4dd8-b527-6ef73c4579e4",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=prompt-textarea",
+      "targets": [
+        ["id=prompt-textarea", "id"],
+        ["css=#prompt-textarea", "css:finder"],
+        ["xpath=//div[@id='prompt-textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='thread-bottom']/div/div/div[2]/form/div/div/div/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>On a hot day, the temperature of an 80,000-L swimming pool increases by 1.50°C. What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.</p>"
+    }, {
+      "id": "69d27c24-b13e-470d-a309-4b8e3807dad0",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=#composer-submit-button > .icon-md",
+      "targets": [
+        ["css=#composer-submit-button > .icon-md", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c566d6ed-6ae3-4ebf-9db4-2c766d141686",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#composer-submit-button path",
+      "targets": [
+        ["css=#composer-submit-button path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44364c7-cee3-4af0-9e06-09d25c14960d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#composer-submit-button > .icon-md",
+      "targets": [
+        ["css=#composer-submit-button > .icon-md", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "da336ce9-ffda-4339-b093-206ea0f3d2c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=rect",
+      "targets": [
+        ["css=rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb0b5812-10d1-4cdf-805a-077fee28dd16",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=rect",
+      "targets": [
+        ["css=rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a368b0f5-ae2b-40ed-acf9-8dd48b776c5a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5e8bd87-6527-497d-856b-5d30fbcb8186",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53915a8f-ae85-4290-8243-8e1831dce7dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4edcd35-c967-445c-8b0a-60d3a989a695",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f09d113-c6f0-45b7-88f5-ee1bb771a122",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://chatgpt.com/"],
+  "plugins": []
+}

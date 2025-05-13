@@ -7,6 +7,7 @@ from datetime import datetime
 import pandas as pd
 from typing import Dict, List, Any, Optional
 from pytest import main as pytest_main
+import itertools
 
 
 from llm_client import get_response, get_all_responses
@@ -23,6 +24,10 @@ DEBUG
 
 # Store all results for summary
 ALL_RESULTS = []
+
+@pytest.fixture(scope="session")
+def run_timestamp():
+    return datetime.now().strftime(DATE_FORMAT)
 
 def load_test_cases(path: str = "test_cases.json") -> List[Dict[str, Any]]:
     """
@@ -64,8 +69,10 @@ def save_result(test_case: Dict[str, Any], model: str, validation_result: Dict[s
     # Create a unique test ID to avoid confusion with duplicate IDs across topics
     unique_test_id = f"{test_case['id']}_{test_case['topic']}"
     
+    # Ensure actual_answer is a string
+    actual_answer = str(validation_result.get("actual", "No response"))
+    
     # Truncate actual answer for CSV display
-    actual_answer = str(validation_result.get("actual", ""))
     if len(actual_answer) > 100:
         actual_answer_display = actual_answer[:100] + "..."
     else:
@@ -127,15 +134,18 @@ def generate_report(timestamp: str, results_file: str = None) -> Optional[str]:
         results_file = os.path.join(RESULTS_DIR, f"results_{timestamp}.csv")
     
     # Check if we have results to process
-    if not ALL_RESULTS and (not os.path.exists(results_file) or os.path.getsize(results_file) == 0):
+    have_results = len(ALL_RESULTS) > 0
+    file_exists = os.path.exists(results_file) and os.path.getsize(results_file) > 0
+    
+    if not have_results and not file_exists:
         print(f"No results found for timestamp: {timestamp}")
         return None
     
     # Use global results if available, otherwise load from file
-    if ALL_RESULTS:
+    if have_results:
         results = ALL_RESULTS
     else:
-        # Load results from CSV
+        # Load results from CSV for report generation
         try:
             results_df = pd.read_csv(results_file)
             results = results_df.to_dict('records')
@@ -221,6 +231,7 @@ def generate_report(timestamp: str, results_file: str = None) -> Optional[str]:
     }
     
     # Save report as JSON
+    ensure_results_dir()
     report_file = os.path.join(RESULTS_DIR, f"report_{timestamp}.json")
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
@@ -271,19 +282,31 @@ def run_single_test_case(tc: Dict[str, Any], model: str, timestamp: str) -> Dict
     # Extract parameter values
     parameters = tc.get("parameters", {})
     
-    # Get model response
-    response = get_response(
-        question=tc["question"],
-        model=model,
-        numeric_only=parameters.get("numeric_only") == "True",
-        multi_part=parameters.get("multi_part") == "True",
-        image_url=parameters.get("image_url") if parameters.get("image_url") != "None" else None
-    )
+    try:
+        # Get model response
+        response = get_response(
+            question=tc["question"],
+            model=model,
+            numeric_only=parameters.get("numeric_only") == "True",
+            multi_part=parameters.get("multi_part") == "True",
+            image_url=parameters.get("image_url") if parameters.get("image_url") != "None" else None
+        )
+        
+        # Validate response
+        validation_result = validate_answer(tc["answer"], response, parameters)
+        
+    except Exception as e:
+        # Create error result instead of failing
+        error_message = str(e)
+        print(f"Error running test case {tc['id']} with model {model}: {error_message}")
+        validation_result = {
+            "valid": False,
+            "method": "error",
+            "reason": f"API Error: {error_message}",
+            "actual": f"ERROR: {error_message}"
+        }
     
-    # Validate response
-    validation_result = validate_answer(tc["answer"], response, parameters)
-    
-    # Save result
+    # Save result - happens even for exceptions
     save_result(tc, model, validation_result, timestamp)
     
     return validation_result
@@ -302,19 +325,22 @@ class TestLLMPhysics:
         return load_test_cases()
 
     # Test all questions with each model
-    @pytest.mark.parametrize("model", DEFAULT_MODELS)
-    def test_questions_by_model(self, test_cases, model, timestamp):
-        """Test all questions with a specific model."""
-        for tc in test_cases:
-            try:
-                validation_result = run_single_test_case(tc, model, timestamp)
-                
-                # Assert for pytest
-                assert validation_result["valid"], \
-                    f"Test case {tc['id']} ({tc['topic']}) failed with model {model}"
-                
-            except Exception as e:
-                pytest.fail(f"Error running test case {tc['id']} with model {model}: {str(e)}")
+
+@pytest.mark.parametrize("tc,model", itertools.product(load_test_cases(), DEFAULT_MODELS))
+def test_question_model_pair(tc, model, run_timestamp):
+    """Test a single question with a specific model."""
+    try:
+        validation_result = run_single_test_case(tc, model, run_timestamp)
+        # We still include the assert for pytest reporting, but the result is already saved
+        assert validation_result["valid"], \
+            f"Test case {tc['id']} ({tc['topic']}) failed with model {model}"
+    except Exception as e:
+        # This should rarely happen now since run_single_test_case handles exceptions
+        print(f"Unhandled exception in test_question_model_pair: {str(e)}")
+        # Re-raise so pytest registers the failure
+        pytest.fail(f"Error running test case {tc['id']} with model {model}: {str(e)}")
+
+
 
 def run_tests(models: Optional[List[str]] = None, quiet: bool = False) -> Optional[str]:
     """

@@ -1,0 +1,1633 @@
+{
+  "id": "1e7ce45e-a077-4469-8a90-13ff956ab94d",
+  "version": "2.0",
+  "name": "PerplexityTestCases",
+  "url": "https://www.perplexity.ai",
+  "tests": [{
+    "id": "d937d1a7-f5e0-495c-9820-cbd0261a5e09",
+    "name": "Thermodynamics",
+    "commands": [{
+      "id": "88e7b4e8-5984-414b-b86a-7c6cbc6e76da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c5507ff-e28d-45ef-9452-dbf9606c5056",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d37c6218-0d6a-4b72-9516-09d89cf9cde6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b53fb59-6289-4a45-aa36-f8e523683600",
+      "comment": "",
+      "command": "click",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4186bef6-7b55-4cb4-9972-8db4a910cedf",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Heliox, a mixture of helium and oxygen, is sometimes given to hospital patients who have trouble breathing, because the low mass of helium makes it easier to breathe than air. Suppose helium at 25°C is mixed with oxygen at 35°C to make a mixture that is 70% helium by mole. What is the final temperature? Ignore any heat flow to or from the surroundings, and assume the final volume is the sum of the initial volumes."
+    }, {
+      "id": "abc8472d-41b7-45d0-82fd-ba02d7b9b6ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-right",
+      "targets": [
+        ["css=.tabler-icon-arrow-right", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "693c5136-8c6c-44bd-b01b-8edd57235171",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d7e6529-78d4-473e-a377-83e81f710784",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ad7326f-fef1-4a28-b4d9-067617ed18b3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3befa37b-7480-4245-8acb-979c0d3fc5d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2c1cee9-fde1-4adc-a700-b1712ca479be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "702b1678-6ebb-4e85-a03c-21ff983c8abd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "890742dd-af19-4780-ab2e-707cfae225d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6811cdf6-002e-4900-b7a2-7b05d65d2390",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "In an expansion of gas, 500 J of work are done by the gas. If the internal energy of the gas increased by 80 J in the expansion, how much heat does the gas absorb?"
+    }, {
+      "id": "9a78142d-67d3-44de-b86b-a6ecabc98a58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "311feddb-ce0b-43eb-b970-5eb61d7d24a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99871285-19b8-4786-8249-ea7aa5653da6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[24]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d0d565-7238-430b-a0b7-e861a71d33ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f3b02aa-7d73-425d-b608-82f803456b7d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "938f1f80-3740-4ae2-b5ab-d1cc52adb61c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "In the text, we showed that if the Clausius statement is false, the Kelvin statement must also be false. Now show the reverse, such that if the Kelvin statement is false, it follows that the Clausius statement is false."
+    }, {
+      "id": "a5697b7a-5650-4946-9fae-a04303950b39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c74c09b-1fdd-453c-ac2b-b53564f10241",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aa29830-e3a5-442b-b654-c14cc2b73388",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a92fa33b-7cf5-4afa-9bc7-041d514f8ed6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81b1eae5-c45c-4328-9ebb-ef4f11d1aca2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Is it possible for a system to have an entropy change if it neither absorbs nor emits heat during a reversible transition? What happens if the process is irreversible?"
+    }, {
+      "id": "89b85645-0347-4d79-abe1-3263e9c38e42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[42]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d70d81ed-6058-4381-8d19-45e8582f9a70",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d535018e-d7f3-4b5d-aa5a-1dd1285543bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "(a) Calculate the rate of heat conduction through house walls that are 13.0 cm thick and have an average thermal conductivity twice that of glass wool. Assume there are no windows or doors. The walls’ surface area is\\n120 m2and their inside surface is at 18.0°C, while their outside surface is at 5.00°C. (b) How many 1-kW room heaters would be needed to balance the heat transfer due to conduction?"
+    }, {
+      "id": "7c20851c-ff12-44af-85ee-50007ec2f4ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[55]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22814bb0-e7f5-49a7-99a6-12abbbcf4318",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace4cb36-7975-44b7-a9ea-a12fe2329035",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "046c2e5c-db60-41ec-ab27-639fa573b29c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "593547f4-5842-443b-bc5f-d3950cd3cc93",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "It is found that an engine discharges 100.0 J while absorbing 125.0 J each cycle of operation. (a) What is the efficiency of the engine? (b) How much work does it perform per cycle?"
+    }, {
+      "id": "8040ea54-ccfa-4a6c-8aaa-c573d409a37d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "303d2129-c1f8-4d16-8ab6-ba4fd32892ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d68ce2-f1dc-4d69-8ad6-6dcc5f421651",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66110f33-26ea-4011-b1f9-00554e79af3a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b2f3236-8998-465a-bab8-95e7b5eddf06",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Open in App",
+      "targets": [
+        ["linkText=Open in App", "linkText"],
+        ["css=.bg-super:nth-child(3)", "css:finder"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[2]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://perplexity.sng.link/A6awk/ppas?_ios_dl=home&_android_dl=singular-perplexity%3A%2F%2Fhome&_smtype=3&pvid=40645a6c-1491-4745-bc1d-21cd314f7e27&_p=pvid%3D40645a6c-1491-4745-bc1d-21cd314f7e27')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open in App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61e7c3b5-f685-4ae8-b702-7812119e161e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Open in App",
+      "targets": [
+        ["linkText=Open in App", "linkText"],
+        ["css=.bg-super:nth-child(3)", "css:finder"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[2]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://perplexity.sng.link/A6awk/ppas?_ios_dl=home&_android_dl=singular-perplexity%3A%2F%2Fhome&_smtype=3&pvid=40645a6c-1491-4745-bc1d-21cd314f7e27&_p=pvid%3D40645a6c-1491-4745-bc1d-21cd314f7e27')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open in App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85f7f8f9-c870-4365-9cc2-d601be866879",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5084bf77-44bd-4084-98ec-52a6568c6fa4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1a2e187-0cd5-4f38-ae54-a4b37c84901e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6807fa83-b45a-4669-b761-4b988827db0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09852397-4747-4145-9fe6-e9d9ecfae151",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A dilute gas at a pressure of 2.0 atm and a volume of 4.0 L is taken through the following quasi-static steps: (a) an isobaric expansion to a volume of 10.0 L, (b) an isochoric change to a pressure of 0.50 atm, (c) an isobaric compression to a volume of 4.0 L, and (d) an isochoric change to a pressure of 2.0 atm. Show these steps on a pV diagram and determine from your graph the net work done by the gas."
+    }, {
+      "id": "9953b48d-11f4-451a-ab4e-2365989e9f9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d4f12e-41d6-4595-bf8c-b6c3d6e213bc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3697b5a-ab5a-49a4-8076-1a64c92f6b0b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7476388-0cc5-4839-a213-56c4d09bf12e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1da45828-40a1-4a69-b33e-c1337b478049",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Can carbon dioxide be liquefied at room temperature (20.0°C )? If so, how? If not, why not?"
+    }, {
+      "id": "add0818b-6be5-43dd-8f93-2d4d13ec5833",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d492743-940c-449c-8c7c-de9f7d8e3955",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa3aa928-9801-4cfe-b06f-b3f8d9c822eb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90cdf7a2-1462-41b9-98a0-75a5579267bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6284612c-0a31-45f9-9559-6d83f67d5a22",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "On a hot day, the temperature of an 80,000-L\\nswimming pool increases by 1.50°C. What is\\nthe net heat transfer during this heating? Ignore\\nany complications, such as loss of water by\\nevaporation."
+    }, {
+      "id": "b4c4d47d-6b04-4ca0-9c79-ded2edc4c02f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[101]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa34ee86-c031-4086-ab66-f8d953f3e840",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[101]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17379c6b-72e4-4327-9329-2bb2b8e21a07",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[97]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbb777b4-bbf1-477a-a57e-7e96379e7d68",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "461d3939-a8e1-4bcf-95b3-7bc254be801a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Calculate the rate of heat conduction out of the human body, assuming that the core internal temperature is 37.0°C, the skin temperature is 34.0°C, the thickness of the fatty tissues between the core and the skin averages 1.00cm, and the surface area is 1.40 m2"
+    }, {
+      "id": "7b93e599-d0bd-4afd-b7bf-ee464aba3c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "49d94ab8-6912-4077-9cf3-79901eb00789",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Two hundred joules of heat are removed from a\\nheat reservoir at a temperature of 200 K. What\\nis the entropy change of the reservoir?"
+    }, {
+      "id": "b4b8ad9d-d259-4962-ae0e-ab47332b6160",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cb1794-2129-4341-9fc2-b2f036b784b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "In a quasi-static isobaric expansion, 500 J of work are done by the gas. If the gas pressure is 0.80 atm, what is the fractional increase in the volume of the gas, assuming it was originally at 20.0 L?"
+    }, {
+      "id": "2bbbc877-776b-432a-9646-26c861c26daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[127]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74a245c-8e43-49e6-bfd5-1f0cef592ef1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "(a) Suppose a cold front blows into your locale and drops the temperature by 40.0 Fahrenheit degrees. How many degrees Celsius does the\\ntemperature decrease when it decreases by 40.0°F? (b) Show that any change in\\ntemperature in Fahrenheit degrees is nine-fifths the change in Celsius degrees"
+    }, {
+      "id": "b2f510eb-a8e0-45a7-b047-ae21efa9a761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5b668b-5116-48ed-8b87-76108c3c07f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tabler-icon-player-stop-filled",
+      "targets": [
+        ["css=.tabler-icon-player-stop-filled", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d07ec6e3-4ee5-42e4-a07e-2d709bf7662b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tabler-icon-player-stop-filled",
+      "targets": [
+        ["css=.tabler-icon-player-stop-filled", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c45f12ef-f9a2-484c-b32f-e480163e79a9",
+    "name": "Electricity & Capacitance",
+    "commands": [{
+      "id": "c3b9c2dd-d8f2-4cf5-8a9c-16b0cd8724c7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4c090f4-83cb-4a9b-9edd-8307ba1cd683",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "782ba325-37fb-406c-a3e4-dfd77999e1f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "To start a car engine, the car battery moves 3.75 * 10^21 electrons through the starter motor. How many coulombs of charge were moved?"
+    }, {
+      "id": "5aa382c7-6d9f-4196-99df-e27c252d1295",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-right > path:nth-child(3)",
+      "targets": [
+        ["css=.tabler-icon-arrow-right > path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0dd2726-2d4e-4ffe-afa5-1b2d6ec000e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Point charges q1 = 50uC and q2 = -25uC and are placed 1.0 m apart. What is the force on a third charge q3 = 20uC placed midway between q1 and q2?"
+    }, {
+      "id": "ed313525-55e3-458a-bf72-266e57e2f38c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a9a932-aaed-4372-a235-cb66f5883b0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A spherical water droplet of radius 25μm carries an excess 250 electrons. What vertical electric field is needed to balance the gravitational force on the droplet at the surface of the earth?"
+    }, {
+      "id": "2bc946b7-388f-452b-9752-d6bbeec04889",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up > path:nth-child(3)",
+      "targets": [
+        ["css=.tabler-icon-arrow-up > path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a84a101-b037-42ca-a2a6-bf99027511a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "There are very large numbers of charged particles in most objects. Why, then, don’t most objects exhibit static electricity?"
+    }, {
+      "id": "12a36398-2463-4237-b061-06ea9a68344f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "64cca167-be2e-480c-ac78-4eaf8b1c00e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "If the electric field at a point on the line between two charges is zero, what do you know about the charges?"
+    }, {
+      "id": "959b6929-e288-45ad-ac00-e468912f654b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "37309afd-7549-4af1-a2e5-a37827366ae8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Point charges are fixed q1 = q2 = 4.0 x 10^-6 C are fixed on the x-axis at x = -3.0 m and x = 3.0m. What charge q must be placed at the origin so\\nthat the electric field vanishes at x = 0, y = 3.0 m?"
+    }, {
+      "id": "506e513a-f47b-446b-86bf-7301d6a7829b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[73]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c8de49-6ff4-439f-8a35-3196a2c03988",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Does the uncharged conductor shown below experience a net electric force?"
+    }, {
+      "id": "3908f711-1b87-4917-a5a5-234aad12bebb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6eed9ef-1e2e-476d-97c8-b01685ebf762",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Common static electricity involves charges ranging from nanocoulombs to microcoulombs. (a) How many electrons are needed to form a charge of −2.00 nC? (b) How many electrons must be removed from a neutral object to leave a net charge of ?"
+    }, {
+      "id": "a5f52405-31f9-473e-97ce-3d8fb63ce24b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "57aa08b1-8f76-471a-9c9b-f94720f95b57",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A particle of charge 2.0 x 10^-8 C experiences an upward force of magnitude 4.0 x 10^-6 N when it is placed in a particular point in an electric field. (a) What is the electric field at that point? (b) If a charge q = -1.0 x 10^-8 C is placed there, what is the force on it?"
+    }, {
+      "id": "e31421a6-2a72-4a47-ae14-03f9ba5293f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2982eea4-63ba-44c7-b665-f1eb81b31a6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A very long, thin wire has a uniform linear charge density of 50 μC/m What is the electric field at a distance 2.0 cm from the wire?"
+    }, {
+      "id": "f3c5658e-4d6c-4b24-8396-56b566e7297f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b0c5dd-1a07-488e-ac2c-430b21bf75fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "The electric flux through a spherical surface is 4.0 X 10^4 N * m^2/C. What is the net charge enclosed by the surface?"
+    }, {
+      "id": "ad374f94-dfa0-470f-87ba-a077a90ce085",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[132]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "998ddc34-60d6-47a2-aa71-e1065e0c3e79",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A long cylinder of aluminum of radius R meters is charged so that it has a uniform charge per unit length on its surface of λ. (a) Find the electric field inside and outside the cylinder."
+    }, {
+      "id": "cffda562-f133-4d19-a138-23eeb3d46980",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[145]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95586947-9082-4bab-8ed6-a36055bd0102",
+    "name": "Circuits",
+    "commands": [{
+      "id": "81b13733-6f62-4334-bed9-603a2b8ba1a1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf1ec381-c6ac-495f-bc44-f50db60f614c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54712a54-2708-4b2d-8827-885afad63702",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.45 A child’s electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of 0.0200 Ω in series with a 1.53-V carbon-zinc dry cell having a 0.100 Ω internal resistance. The load resistance is 10.0 Ω. How much power is supplied to the load?"
+    }, {
+      "id": "3e71fc53-9bba-4154-9831-b55511cf1212",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-right",
+      "targets": [
+        ["css=.tabler-icon-arrow-right", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6cd7c4-b344-498b-b558-1a2064c3e572",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f609262b-37b9-450f-9547-a80616006c67",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.57 A heater is being designed that uses a coil of 14-gauge nichrome wire to generate 300 W using a voltage of V = 110 V. How long should the engineer make the wire?"
+    }, {
+      "id": "2ad32fa4-6f7f-4155-b18c-34ff577b2da8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a55677-febd-4648-981c-3bbe21ab8708",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.27 What are the largest and smallest resistances you can obtain by connecting a 36.0-Ω, a 50.0-Ω, and a 700-Ω resistor together?"
+    }, {
+      "id": "813d6049-fced-4151-a324-17ea70fc097b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c727a62-cd96-4fc2-8348-07668ee5fff5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "What are the advantages and disadvantages of connecting batteries in series? In parallel?"
+    }, {
+      "id": "3e72fdfe-6047-447b-8f9f-a797b3613e6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5530ee9b-06ae-4818-a6ed-e02fbd7a281a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "An electron passes through a magnetic field without being deflected. What do you conclude about the magnetic field?"
+    }, {
+      "id": "097c559b-86c1-4bae-9b58-d53782935ef4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[58]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf007f6a-8f4c-4586-916e-11c4a12f8922",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.67 A circuit contains a D cell battery, a switch, a resistor, and four 20-mF capacitors connected in series. What is the RC time constant? How long before the current decreases to of the initial value once the switch is closed?"
+    }, {
+      "id": "a44a37f2-8943-4f6b-b925-f66e629c5dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfd4a9be-9bcc-4ef0-9d74-1b8920145354",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.71 A student makes a homemade resistor from a graphite pencil 5.00 cm long, where the graphite is 0.05 mm in diameter. The resistivity of the graphite is p = 1.38 x 10^-5 Ω/m . The homemade resistor is place in series with a switch, a 10.00-mF uncharged capacitor and a 0.50-V power source. (a) What is the RC time constant of the circuit? (b) What is the potential drop across the pencil 1.00 s after the switch is closed?"
+    }, {
+      "id": "5ceea5c8-0fc9-4687-807b-27664b3a3939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[81]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4989f892-a85c-4b2b-8835-44b163420492",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A child’s electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of 0.0200 Ω in series with a 1.53-V carbon-zinc dry cell having a 0.100 Ω internal resistance. The load resistance is 10.0 Ω. Draw a circuit diagram of the toy and its batteries."
+    }, {
+      "id": "534bcbfa-0ba4-4909-8e7d-044ea06767b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f3a280-90a9-4a9e-8789-129283a3f3ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.75 Consider the circuit shown below. What is the energy stored in each capacitor after the switch has been closed for a very long time?"
+    }, {
+      "id": "98acc074-10b1-40e5-9487-3e3e01260aa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e75de7d8-b0f4-4ba6-8129-0b12eb8c3321",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f411ae-ce4c-4be6-886a-438c245ee9bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "10.49 The timing device in an automobile’s intermittent wiper system is based on an RC time constant and utilizes a 0.500 -μF capacitor and a variable resistor. Over what range must R be made to vary to achieve time constants from 2.00 to 15.0 s?"
+    }, {
+      "id": "ffeb55f5-f3b0-408a-bd4d-4080548a101e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "261c4f89-1c7f-4a77-902d-6e31ac2a3186",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A circuit contains a D cell battery, a switch, a resistor, and four 20-mF capacitors connected in series. What is the equivalent capacitance of the circuit?"
+    }, {
+      "id": "34381593-5c78-47e9-9de7-b850c7620412",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed230042-18f1-4d39-aedf-80b6a5dd6a59",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.23 How many electrons flow through a point in a wire in 3.00 s if there is a constant current of I = 4.00A?"
+    }, {
+      "id": "412a7248-32a7-4dcc-ac81-35e9a9e2b32b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e36a77f-7e25-487a-a8fc-d719e92598da",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.55 A 20.00-V battery is used to supply current to a 10-k Ω resistor. Assume the voltage drop across any wires used for connections is negligible. What is the power dissipated by the resistor?"
+    }, {
+      "id": "55d1ecfd-7a77-45fc-a4ec-6aa4d9ef8fd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[128]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "012db16b-4c7b-4561-a4c4-47d19e91db74",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.37 What is the resistance of a 20.0-m-long piece of 12-gauge copper wire having a 2.053-mm diameter?"
+    }, {
+      "id": "ad7541cb-4ccc-4ace-b900-7260ede47d23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a82edf05-a06a-4d24-a6c6-8a4d56821be0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.59 The power dissipated by a resistor with a resistance of R = 100 Ω is P = 2.0W. What are the current through and the voltage drop across the resistor?"
+    }, {
+      "id": "6a385a6e-2e5a-4acd-92f2-33145694fefa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a90cda-4258-43cc-bee8-cbd1070b51ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "9.27 The charge on a capacitor in a circuit is modeled as Q(t) = Qmax cos(⍵t + 𝛷) . What is the current through the circuit as a function of time?"
+    }, {
+      "id": "c3f80473-9260-4007-a514-67fa138ab50e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up > path:nth-child(3)",
+      "targets": [
+        ["css=.tabler-icon-arrow-up > path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "de90bea5-a85b-4374-8603-a6a26cc16076",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1f2412b8-2841-4ac7-95f5-a226c200bc12",
+    "name": "Magnetism & Inductance",
+    "commands": [{
+      "id": "31271405-a7ef-458f-988b-09e31b0d7d13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecf1a62f-5a91-468f-ad89-b3455acad639",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b9c596c-2313-4583-8ae8-b581082f12b3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72e63ba6-0936-4f98-87d1-4814a07d16be",
+      "comment": "",
+      "command": "click",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e08ca0-9593-44b3-9ad7-176d12cc253a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A plane electromagnetic wave travels\\nnorthward. At one instant, its electric field has a\\nmagnitude of 6.0 V/m and points eastward.\\nWhat are the magnitude and direction of the\\nmagnetic field at this instant?"
+    }, {
+      "id": "a503a1a5-7386-4dfc-a0ea-6ebfc8322ecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-super",
+      "targets": [
+        ["css=.bg-super", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fee9b5a6-0d62-4c66-91dd-2462fbca0e05",
+      "comment": "",
+      "command": "click",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a40131-c568-4c5a-aea6-3581241727d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Show that the self-inductance per unit length of an infinite, straight, thin wire is infinite"
+    }, {
+      "id": "9dac3631-e371-4ae2-8f32-06f43aebb6d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e80ee7f3-f614-4fab-83ab-9c55318c333f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03cefd2-6fd1-4d6b-8a46-6618bf9b79d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc27021d-c85a-446a-933b-47ae3645c962",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d0bcae9-4e24-49a6-9658-95cf8ccfc7e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A stationary coil is in a magnetic field that is\\nchanging with time. Does the emf induced in the\\ncoil depend on the actual values of the magnetic\\nfield?"
+    }, {
+      "id": "f0366d2a-8754-4e8e-97f3-b877bb8b691d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b31f7901-8f7c-4e9f-8736-be925e88bbdd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "549c3c0d-5252-447a-8537-0bd2cea53ea8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d04ea98-dd99-48ae-8001-995e462e6a98",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Explain how the displacement current maintains the continuity of current in a circuit containing a capacitor."
+    }, {
+      "id": "63bcc07a-9783-4fad-b9f0-7163d8316c0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\!duration-100",
+      "targets": [
+        ["css=.\\!duration-100", "css:finder"],
+        ["xpath=(//button[@type='button'])[46]", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/span/div/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be3e618-e500-46e3-8114-ff0eae7b63ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47363bf0-2a78-4305-a444-f98237bdeccd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e88cf445-249b-4829-bd74-bccbc0a54153",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "An emf of 0.40 V is induced across a coil when\\nthe current through it changes uniformly from\\n0.10 to 0.60 A in 0.30 s. What is the self inductance of the coil?"
+    }, {
+      "id": "b8b96d36-4dab-4e7a-a3f4-723b6254793a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c36ea7-9e64-425f-af5a-cbf1f1d0a3a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d91f87a-4197-4ea7-b429-8ea8183f772a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ask-input",
+      "targets": [
+        ["id=ask-input", "id"],
+        ["css=#ask-input", "css:finder"],
+        ["xpath=//textarea[@id='ask-input']", "xpath:attributes"],
+        ["xpath=//body[@id='__next']/main/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div/div/div/div/span/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A square loop of side 2 cm is placed 1 cm from a long wire carrying a current that varies with time at a constant rate of 3 A/s as shown below. Determine the magnetic flux through the loop"
+    }, {
+      "id": "76307c01-cdd7-4e01-905c-4d7c8e4e6de7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabler-icon-arrow-up",
+      "targets": [
+        ["css=.tabler-icon-arrow-up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa15d446-0135-44a3-ba5a-2ca9430b6ecf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace05a9e-fb98-469d-873f-c6037caf81ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c7b12cf5-a3e5-4215-85a6-393a8c71cbb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.perplexity.ai/"],
+  "plugins": []
+}

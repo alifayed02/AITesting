@@ -19,12 +19,32 @@ perplexity_client = OpenAI(api_key=PERPLEXITY_API_KEY, base_url="https://api.per
 def force_json(resp: str) -> Dict[str, Any]:
     """
     Extracts the first JSON object from the response text and parses it.
-    Raises ValueError if no valid JSON is found.
+    If no JSON is found, attempts to convert the response to a JSON format
+    based on common response patterns for multi-part answers (a, b, c).
     """
     match = re.search(r"\{.*\}", resp, flags=re.DOTALL)
-    if not match:
-        raise ValueError(f"No JSON object found in response: {resp!r}")
-    return json.loads(match.group(0))
+    if match:
+        try:
+            return json.loads(match.group(0))
+        except json.JSONDecodeError:
+            pass
+    
+    # If no JSON found, try to parse the response into a structured format
+    # Look for patterns like (a) answer (b) answer (c) answer
+    result = {}
+    
+    # Try to extract answers for parts a, b, c, etc.
+    parts = re.findall(r"\(?([a-z])\)?[.:]?\s*([^(]+?)(?=\([a-z]\)|$)", resp, re.IGNORECASE | re.DOTALL)
+    
+    if parts:
+        for part, answer in parts:
+            # Clean up the answer
+            clean_answer = answer.strip()
+            result[part.lower()] = clean_answer
+        return result
+    
+    # If no parts were found, just return the raw text
+    return {"raw": resp, "error": "Could not parse multi-part answer into structured format"}
 
 
 def _build_messages(
